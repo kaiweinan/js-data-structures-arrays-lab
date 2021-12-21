@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-12-21T21:55:47.280Z",
+    "end": "2021-12-21T21:55:47.607Z",
+    "duration": 327
+  },
+  "tests": [
+    {
+      "title": "appends pet \"Odie\" to the end of the pets array",
+      "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: append] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: append] to be an array\n    at Context.<anonymous> (test/indexTest.js:7:40)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "prepends a pet to the beginning of the pets array",
+      "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: prepend] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: prepend] to be an array\n    at Context.<anonymous> (test/indexTest.js:18:41)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "removes the last pet from the pets array",
+      "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: removeLast] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: removeLast] to be an array\n    at Context.<anonymous> (test/indexTest.js:30:28)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "removes the First pet from the pets array",
+      "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: removeFirst] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: removeFirst] to be an array\n    at Context.<anonymous> (test/indexTest.js:38:28)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "appends pet \"Odie\" to the end of the pets array",
+      "fullTitle": "index.js Array functions append appends pet \"Odie\" to the end of the pets array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: append] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: append] to be an array\n    at Context.<anonymous> (test/indexTest.js:7:40)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "prepends a pet to the beginning of the pets array",
+      "fullTitle": "index.js Array functions prepend prepends a pet to the beginning of the pets array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: prepend] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: prepend] to be an array\n    at Context.<anonymous> (test/indexTest.js:18:41)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "removes the last pet from the pets array",
+      "fullTitle": "index.js Array functions removeLast removes the last pet from the pets array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: removeLast] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: removeLast] to be an array\n    at Context.<anonymous> (test/indexTest.js:30:28)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "removes the First pet from the pets array",
+      "fullTitle": "index.js Array functions removeFirst removes the First pet from the pets array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [Function: removeFirst] to be an array",
+        "showDiff": false,
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected [Function: removeFirst] to be an array\n    at Context.<anonymous> (test/indexTest.js:38:28)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": []
+}
